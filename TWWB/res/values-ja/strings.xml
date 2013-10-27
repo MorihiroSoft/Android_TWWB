@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2013 Morihiro Soft
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** may obtain a copy of the License at
+**
+**      http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!--  -->
+    <string name="app_name">歩きスマホ禁止</string>
+    <!--  -->
+    <string name="str_unblock">ブロック解除</string>
+    <string name="str_dsc"></string>
+    <!--  -->
+    <string name="str_notify_text">行動監視中。</string>
+    <!--  -->
+    <string name="str_settings_title">設定</string>
+    <!--  -->
+    <string name="str_settings_onoff_category">監視状態</string>
+    <string name="str_settings_onoff_title">監視</string>
+    <string name="str_settings_pending_title">保留時間</string>
+    <string name="str_settings_pending_summary1">スクリーンON後、</string>
+    <string name="str_settings_pending_summary2">秒間はブロックしない。</string>
+    <string name="str_settings_pending_skb_suffix"> [秒]</string>
+    <string name="str_settings_log_title">ログ</string>
+    <string name="str_settings_log_summary">監視ON/OFFの履歴を表示する。</string>
+    <!--  -->
+    <string name="str_settings_block_category">ブロック対象</string>
+    <string name="str_settings_block_on_foot_title">歩行</string>
+    <string name="str_settings_block_on_bicycle_title">自転車</string>
+    <string name="str_settings_block_in_vehicle_title">車内</string>
+    <string name="str_settings_block_tilting_title">傾斜</string>
+    <string name="str_settings_block_tilting_summary">DEBUG用</string>
+    <!--  -->
+    <string name="str_settings_appearance_category">外観</string>
+    <string name="str_settings_alpha_title">透過率</string>
+    <string name="str_settings_alpha_summary1">ブロック画面の透過率:</string>
+    <string name="str_settings_alpha_summary2">[%]</string>
+    <string name="str_settings_alpha_skb_suffix"> [%]</string>
+    <string name="str_settings_statusbar_title">ステータスバーアイコン</string>
+    <string name="str_settings_statusbar_summary">行動監視中、ステータスバーにアイコンを表示する。</string>
+    <!--  -->
+    <string name="str_settings_info_category">情報</string>
+    <string name="str_settings_about_title">About…</string>
+    <string name="str_settings_about_message">file:///android_asset/about-ja.html</string>
+
+</resources>

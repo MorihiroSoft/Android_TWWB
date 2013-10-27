@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2013 Morihiro Soft
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** may obtain a copy of the License at
+**
+**      http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!--  -->
+    <string name="app_name">TWW Block</string>
+    <!--  -->
+    <string name="str_unblock">Unblock</string>
+    <string name="str_dsc"></string>
+    <!--  -->
+    <string name="str_notify_text">Activity monitoring.</string>
+    <!--  -->
+    <string name="str_settings_title">Settings</string>
+    <!--  -->
+    <string name="str_settings_onoff_category">Running Status</string>
+    <string name="str_settings_onoff_title">Monitoring</string>
+    <string name="str_settings_pending_title">Penfing Time</string>
+    <string name="str_settings_pending_summary1">After Screen-ON, don\'t block for</string>
+    <string name="str_settings_pending_summary2">sec.</string>
+    <string name="str_settings_pending_skb_suffix"> [sec.]</string>
+    <string name="str_settings_log_title">Log</string>
+    <string name="str_settings_log_summary">Show monitoring ON/OFF log.</string>
+    <!--  -->
+    <string name="str_settings_block_category">Block Target</string>
+    <string name="str_settings_block_on_foot_title">On Foot</string>
+    <string name="str_settings_block_on_bicycle_title">On Bicycle</string>
+    <string name="str_settings_block_in_vehicle_title">In Vehicle</string>
+    <string name="str_settings_block_tilting_title">Tilting</string>
+    <string name="str_settings_block_tilting_summary">for DEBUG</string>
+    <!--  -->
+    <string name="str_settings_appearance_category">Appearance</string>
+    <string name="str_settings_alpha_title">Alpha</string>
+    <string name="str_settings_alpha_summary1">Transparency of block screen:</string>
+    <string name="str_settings_alpha_summary2">[%]</string>
+    <string name="str_settings_alpha_skb_suffix"> [%]</string>
+    <string name="str_settings_statusbar_title">Status bar Icon</string>
+    <string name="str_settings_statusbar_summary">During activity monitoring, show icon on a status bar.</string>
+    <!--  -->
+    <string name="str_settings_info_category">Information</string>
+    <string name="str_settings_about_title">About…</string>
+    <string name="str_settings_about_message">file:///android_asset/about.html</string>
+
+</resources>

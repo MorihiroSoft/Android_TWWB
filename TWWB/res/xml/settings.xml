@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2013 Morihiro Soft
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** may obtain a copy of the License at
+**
+**      http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:twwb="http://schemas.android.com/apk/res/jp.morihirosoft.twwb"
+    android:title="@string/str_settings_title" >
+
+    <PreferenceCategory android:title="@string/str_settings_onoff_category" >
+        <SwitchPreference
+            android:key="@string/key_settings_onoff"
+            android:title="@string/str_settings_onoff_title" />
+
+        <jp.morihirosoft.twwb.preference.SeekBarPreference
+            android:key="@string/key_settings_pending"
+            android:title="@string/str_settings_pending_title"
+            twwb:skbMax="180"
+            twwb:skbMin="0"
+            twwb:skbSuffix="@string/str_settings_pending_skb_suffix" />
+
+        <jp.morihirosoft.twwb.preference.LogPreference
+            android:summary="@string/str_settings_log_summary"
+            android:title="@string/str_settings_log_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/str_settings_block_category" >
+        <CheckBoxPreference
+            android:key="@string/key_settings_block_on_foot"
+            android:title="@string/str_settings_block_on_foot_title" />
+        <CheckBoxPreference
+            android:key="@string/key_settings_block_on_bicycle"
+            android:title="@string/str_settings_block_on_bicycle_title" />
+        <CheckBoxPreference
+            android:key="@string/key_settings_block_in_vehicle"
+            android:title="@string/str_settings_block_in_vehicle_title" />
+        <CheckBoxPreference
+            android:key="@string/key_settings_block_tilting"
+            android:summary="@string/str_settings_block_tilting_summary"
+            android:title="@string/str_settings_block_tilting_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/str_settings_appearance_category" >
+        <jp.morihirosoft.twwb.preference.SeekBarPreference
+            android:key="@string/key_settings_alpha"
+            android:title="@string/str_settings_alpha_title"
+            twwb:skbMax="100"
+            twwb:skbMin="0"
+            twwb:skbSuffix="@string/str_settings_alpha_skb_suffix" />
+        <CheckBoxPreference
+            android:key="@string/key_settings_statusbar"
+            android:summary="@string/str_settings_statusbar_summary"
+            android:title="@string/str_settings_statusbar_title" />
+        </PreferenceCategory>
+    <PreferenceCategory android:title="@string/str_settings_info_category" >
+        <jp.morihirosoft.twwb.preference.WebViewPreference
+            android:dialogMessage="@string/str_settings_about_message"
+            android:dialogTitle="@string/app_name"
+            android:title="@string/str_settings_about_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
