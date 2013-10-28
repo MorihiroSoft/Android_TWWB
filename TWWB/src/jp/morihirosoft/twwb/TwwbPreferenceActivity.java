@@ -26,7 +26,7 @@ import android.util.Log;
 
 public class TwwbPreferenceActivity extends PreferenceActivity
 {
-	private static final boolean DEBUG = true;
+	private static final boolean DEBUG = false;
 	private static final String TAG = "TwwbPreferenceActivity";
 
 	//-------------------------------------------------------------------------

@@ -39,7 +39,7 @@ import android.util.Log;
 public class TwwbApplication extends Application implements
 SharedPreferences.OnSharedPreferenceChangeListener
 {
-	private static final boolean DEBUG = true;
+	private static final boolean DEBUG = false;
 	private static final String TAG = "TwwbApplication";
 
 	//-------------------------------------------------------------------------

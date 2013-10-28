@@ -47,7 +47,7 @@ GooglePlayServicesClient.ConnectionCallbacks,
 GooglePlayServicesClient.OnConnectionFailedListener,
 View.OnClickListener
 {
-	private static final boolean DEBUG = true;
+	private static final boolean DEBUG = false;
 	private static final String TAG = "TwwbService";
 
 	//-------------------------------------------------------------------------

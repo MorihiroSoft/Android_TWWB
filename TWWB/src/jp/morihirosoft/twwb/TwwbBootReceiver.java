@@ -22,7 +22,7 @@ import android.util.Log;
 
 public class TwwbBootReceiver extends BroadcastReceiver
 {
-	private static final boolean DEBUG = true;
+	private static final boolean DEBUG = false;
 	private static final String TAG = "TwwbBootReceiver";
 
 	//-------------------------------------------------------------------------

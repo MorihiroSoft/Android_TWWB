@@ -25,7 +25,7 @@ import com.google.android.gms.location.DetectedActivity;
 
 public class TwwbRecognition extends IntentService
 {
-	private static final boolean DEBUG = true;
+	private static final boolean DEBUG = false;
 	private static final String TAG = "TwwbRecognition";
 
 	//-------------------------------------------------------------------------
