@@ -78,10 +78,10 @@ SharedPreferences.OnSharedPreferenceChangeListener
 		if (mSettings.isKeyOnOff(key)) {
 			Intent i = new Intent(this, TwwbService.class);
 			if (mSettings.getOnOff()) {
-				if (DEBUG) Log.e(TAG, "startService");
+				if (DEBUG) Log.d(TAG, "startService");
 				startService(i);
 			} else {
-				if (DEBUG) Log.e(TAG, "stopService");
+				if (DEBUG) Log.d(TAG, "stopService");
 				stopService(i);
 			}
 		}

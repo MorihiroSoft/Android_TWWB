@@ -19,7 +19,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jp.morihirosoft.twwb"
     android:installLocation="internalOnly"
-    android:versionCode="2013102901"
+    android:versionCode="2013102902"
     android:versionName="0.1.1" >
 
     <uses-sdk

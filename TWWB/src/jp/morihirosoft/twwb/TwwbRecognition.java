@@ -42,7 +42,6 @@ public class TwwbRecognition extends IntentService
 		if (!ActivityRecognitionResult.hasResult(intent)) {
 			return;
 		}
-		Log.d(TAG, "intent.extras="+intent.getExtras());
 
 		ActivityRecognitionResult arr = ActivityRecognitionResult.extractResult(intent);
 		DetectedActivity mpa = arr.getMostProbableActivity();
